@@ -1,0 +1,19 @@
+.blog-text h4,h3 {
+    font-weight: bold;
+}
+.blog-text h4{
+    color:  rgb(28, 199, 193);
+}
+.blog-text h3{
+    color: rgb(65, 73, 92);
+}
+.blog-container{
+    margin: center;
+}
+.check-last-doctor{
+    background-image: linear-gradient(to right, rgb(70, 74, 119), rgb(106, 111, 180));
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    height: 400px;
+}

@@ -1,0 +1,18 @@
+.footer-container{
+    height: 400px;
+    background-image: url('../../../images/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+}
+.footer-container .row{
+    padding: 40px;
+    margin-bottom: 0px;
+}
+.footer-container .row .col-md-3{
+    color:rgb(31, 30, 95);;
+}
+.social-icon{
+    font-size: 3.5em;
+}

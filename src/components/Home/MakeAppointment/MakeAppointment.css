@@ -1,0 +1,42 @@
+.makeAppointment-container{
+    min-height: 400px;
+    position: relative;
+    background-image: url('../../../images/appointmentBg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.makeAppointment-container::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    opacity: 0.9;
+    background-color: #40485C;
+    z-index: -1;
+}
+.make-appointment h4{
+    color: rgb(209, 206, 200);
+}
+.make-appointment h1{
+    color: rgb(221, 214, 201);
+}
+.make-appointment p{
+    color: rgb(255, 218, 151);
+}
+.make-appointment{
+    padding-right: 90px;
+}
+
+.row-container{
+    position: absolute;
+    top: 0;
+}
+.doctor-img{
+    width: 100%;
+    position: relative;
+    bottom: 55px;
+}

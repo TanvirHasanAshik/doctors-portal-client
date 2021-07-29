@@ -1,0 +1,6 @@
+.card{
+    height: 200px;
+}
+.card-body h5,h6{
+    font-weight: bold;
+}
