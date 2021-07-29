@@ -12,7 +12,7 @@ const Dashboard = () => {
         setSelectedDate(date);
     }
     useEffect(() => {
-        fetch('http://localhost:5000/appointmentByDate', {
+        fetch('https://salty-garden-92822.herokuapp.com/appointmentByDate', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({date : selectedDate})
